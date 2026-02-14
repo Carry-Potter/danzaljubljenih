@@ -110,7 +110,7 @@ export function CardForm() {
           name="name"
           value={form.name}
           onChange={handleChange}
-          placeholder='npr. "Tanja, Sanja, Nikola, Milena, ..."'
+          placeholder='npr. "Sanja, Nikola, Milena, Ljubica, ..."'
           className="w-full rounded-lg border border-zinc-300 px-3 py-2 text-zinc-900 focus:ring-2 focus:ring-red-500 focus:border-red-500"
         />
         {errors.name && <p className="mt-1 text-sm text-red-500">{errors.name}</p>}
