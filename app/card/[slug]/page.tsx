@@ -16,10 +16,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const title = `Čestitka za ${card.name} – Dan zaljubljenih`;
   return {
     title,
-    description: "Otvori čestitku.",
     openGraph: {
-      title: "Čestitka – Dan zaljubljenih",
-      description: "Otvori i pogledaj svoju čestitku.",
+      title: "Instant putovanje",
       type: "website",
     },
   };
