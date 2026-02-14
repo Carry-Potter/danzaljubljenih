@@ -14,13 +14,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   });
   if (!card) return { title: "Čestitka nije pronađena" };
   const title = `Čestitka za ${card.name} – Dan zaljubljenih`;
-  const description = card.highlight || "Personalizovana čestitka za Dan zaljubljenih.";
   return {
     title,
-    description,
+    description: "Otvori čestitku.",
     openGraph: {
-      title,
-      description,
+      title: "Čestitka – Dan zaljubljenih",
+      description: "Otvori i pogledaj svoju čestitku.",
       type: "website",
     },
   };
