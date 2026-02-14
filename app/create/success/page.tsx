@@ -66,8 +66,8 @@ function SuccessContent() {
     }
     try {
       await navigator.share({
-        title: "Čestitka za Dan zaljubljenih",
-        text: "Poslao/la sam ti čestitku!",
+        title: "",
+        text: "",
         url: cardUrl,
       });
     } catch {

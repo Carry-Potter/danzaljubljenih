@@ -2,10 +2,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 import { CardForm } from "@/components/CardForm";
 
-export const metadata = {
-  title: "Kreiraj čestitku – Dan zaljubljenih",
-  description: "Popuni formu i kreiraj personalizovanu Valentinovo čestitku.",
-};
+
 
 export default function CreatePage() {
   return (
